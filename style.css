@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: azure;
+}
+
+.wrapper {
+  background-color: #fff;
+  width: 450px;
+  border-radius: 16px;
+  -webkit-box-shadow: 10px 10px 36px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 36px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 36px -7px rgba(0, 0, 0, 0.75);
+}
+
+.form {
+  padding: 25px 30px;
+}
+
+header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+form {
+  margin: 23px 0;
+}
+
+.error-txt {
+  background-color: lightcoral;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.input input {
+  border: 1px solid sandybrown;
+  height: 40px;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.button input {
+  background-color: sandybrown;
+  color: #fff;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.field i{
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  color: #ccc;
+  cursor: pointer;
+}
