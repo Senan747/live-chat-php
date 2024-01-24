@@ -31,7 +31,7 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-form {
+.form {
   margin: 23px 0;
 }
 
@@ -188,6 +188,107 @@ form {
   font-size: 10px;
   color: #5cb1b8;
 }
-.users-list a .status-dot .offline{
+.users-list a .status-dot .offline {
   color: #ccc;
+}
+
+.chat-area header {
+  display: flex;
+  align-items: center;
+  padding: 18px 30px;
+}
+
+.chat-area header img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.chat-area header .back-icon {
+  font-size: 18px;
+  color: #333;
+}
+
+.chat-area header img {
+  height: 45px;
+  width: 45px;
+  margin: 0 15px;
+}
+
+.chat-area header span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.chat-box {
+  height: 500px;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+  padding: 10px 30px 20px 30px;
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 0;
+}
+.chat-box .outgoing {
+  display: flex;
+}
+
+.chat-box .chat p {
+  padding: 8px 16px;
+}
+.outgoing .details {
+  margin-left: auto;
+  max-width: calc(100% - 130px);
+  margin-bottom: 10px;
+}
+.incoming .details {
+  margin-right: auto;
+  max-width: calc(100% - 130px);
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.outgoing .details p {
+  background-color: #333;
+  color: white;
+  border-radius: 18px 18px 0 18px;
+}
+.incoming .details p {
+  background-color: white;
+  color: #333;
+  border-radius: 18px 18px 18px 0;
+}
+.incoming .details img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.chat-area .typing-area {
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.typing-area input {
+  height: 45px;
+  width: calc(100% - 58px);
+  font-size: 17px;
+  border: 1px solid #ccc;
+  padding: 0 13px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.typing-area button {
+  width: 55px;
+  border: none;
+  outline: none;
+}
+
+.typing-area button i {
+  font-size: 25px;
+  color: #333;
 }
