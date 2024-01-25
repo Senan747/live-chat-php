@@ -27,33 +27,25 @@
           <div class="error-txt">This is an error message!</div>
           <div class="name-details">
             <div class="field input">
-              <label for="">First name</label>
-              <input type="text" placeholder="First Name" />
-            </div>
-            <div class="field input">
-              <label for="">Last name</label>
-              <input type="text" placeholder="Last Name" />
-            </div>
-            <div class="field input">
               <label for="">Email Address</label>
               <input type="mail" placeholder="Enter your email" />
             </div>
             <div class="field input">
               <label for="">Password</label>
-              <input type="text" placeholder="Enter new password" />
+              <input type="password" placeholder="Enter new password" />
               <i class="fas fa-eye"></i>
             </div>
-            <div class="field">
-              <label for="">Select Image</label>
-              <input type="file" />
-            </div>
+
             <div class="field button">
               <input type="submit" value="Continue to Chat" />
             </div>
           </div>
         </form>
-        <div class="link">Already signed up? <a href="/login.html">Login now</a></div>
+        <div class="link">
+          Not yet signed up? <a href="index.html">Sign up now</a>
+        </div>
       </section>
     </div>
+    <script src="javascript/password.js"></script>
   </body>
 </html>

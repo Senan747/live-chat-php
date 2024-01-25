@@ -79,6 +79,12 @@ header {
   cursor: pointer;
 }
 
+.field i.active::before {
+  color: #333;
+  content: "\f070"
+}
+
+
 .users {
   padding: 25px 30px;
 }
