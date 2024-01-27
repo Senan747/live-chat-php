@@ -43,6 +43,7 @@ header {
   margin-bottom: 10px;
   border: none;
   color: white;
+  display: none;
 }
 
 .field {
@@ -81,9 +82,8 @@ header {
 
 .field i.active::before {
   color: #333;
-  content: "\f070"
+  content: "\f070";
 }
-
 
 .users {
   padding: 25px 30px;

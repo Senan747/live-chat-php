@@ -23,8 +23,8 @@
     <div class="wrapper">
       <section class="form signup">
         <header>Gossip Chat</header>
-        <form action="#">
-          <div class="error-txt">This is an error message!</div>
+        <form action="#" enctype="multipart/form-data">
+          <div class="error-txt"></div>
           <div class="name-details">
             <div class="field input">
               <label for="">First name</label>
@@ -56,8 +56,10 @@
           Already signed up? <a href="/login.html">Login now</a>
         </div>
       </section>
-    </div>
+    </div>   
+     <script src="javascript/signup.js"></script>
     <script src="javascript/password.js"></script>
-    <script src="javascript/signup.js"></script>
+    <!-- <script src="javascript/signup.js"></script> -->
+
   </body>
 </html>
