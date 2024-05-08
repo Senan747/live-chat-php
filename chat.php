@@ -26,7 +26,7 @@
           <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
           <img src="profile.jpeg" alt="" />
           <div class="details">
-            <span>Senan Memmedov</span>
+            <span>Senan Memmedov -kenan</span>
             <p>Active now</p>
           </div>
         </header>
